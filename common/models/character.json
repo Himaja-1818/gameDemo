@@ -1,0 +1,54 @@
+{
+  "name": "character",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "level": {
+      "type": "number",
+      "required": true
+    },
+    "nextLevelExp": {
+      "type": "number",
+      "required": true
+    },
+    "currentExp": {
+      "type": "number",
+      "required": true
+    },
+    "maxHealth": {
+      "type": "number",
+      "required": true
+    },
+    "currentHealth": {
+      "type": "number",
+      "required": true
+    },
+    "maxMana": {
+      "type": "number",
+      "required": true
+    },
+    "currentMana": {
+      "type": "number",
+      "required": true
+    },
+    "attack": {
+      "type": "number",
+      "required": true
+    },
+    "defence": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
